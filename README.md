@@ -11,7 +11,7 @@ enQueue() // add element into queue
 
 deQueue() // return element and remove element from queue
 
-reset() // reset container
+reset() // reset queue container
 
 getValue() // return pointer to elements copy from queue
 
