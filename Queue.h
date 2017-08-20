@@ -1,3 +1,9 @@
+/*
+Queue.h 
+by Nattawut Chaimongkol
+chaimongkol8369@gmail.com
+*/
+
 #ifndef QUEUE_H
 #define QUEUE_H
 
