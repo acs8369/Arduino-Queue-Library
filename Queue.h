@@ -45,6 +45,7 @@ Queue<T>::Queue(int16_t size) {
 	if(!_container) {
 
 		Serial.println("error _container memory allocation");
+		return;
 	}
 
 	_temp = (T*) malloc(sizeof(T) * 8);
@@ -52,6 +53,7 @@ Queue<T>::Queue(int16_t size) {
 	if(!_temp) {
 
 		Serial.println("error _temp memory allocation");
+		return;
 	}
 }
 
@@ -128,6 +130,7 @@ void Queue<T>::reset() {
 	if(!_container) {
 
 		Serial.println("error _container memory allocation");
+		return;
 	}
 }
 
@@ -162,6 +165,7 @@ T Queue<T>::front() {
 	if(isEmpty()) {
 
 		Serial.println("Queue is Empty");
+		return;
 	} 
 
     return _container[_head];
