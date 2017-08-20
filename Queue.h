@@ -82,7 +82,7 @@ void Queue<T>::enQueue(T element) {
 	}
 }
 
-// return and remove element from queue
+// return element and remove element from queue
 template<typename T>
 T Queue<T>::deQueue() {
 
