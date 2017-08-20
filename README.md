@@ -1,5 +1,21 @@
 # Arduino-Queue-Library
 This is Arduino Queue Library for my temperature calibration project.
+## Constructor
+define Type and length of queue
+```
+Queue<uint16_t> queue(10);
+Queue<float> queue(16);
+```
+## Method
+enQueue() // add element into queue
+deQueue() // return element and remove element from queue
+reset() // reset container
+getValue() // return pointer to elements copy from queue
+front() // return front element of queue
+count() // return number of elements in queue
+isEmpty() // return true if queue is empty
+isFull() // return true if queue is full
+### Result from example
 ```
 .......................enq: 0  - 0 count: 1enq: 1  - 0 1 count: 2enq: 2  - 0 1 2 count: 3enq: 3  - 0 1 2 3 count: 4enq: 4  - 0 1 2 3 4 count: 5enq: 5  - 0 1 2 3 4 5 count: 6enq: 6  - 0 1 2 3 4 5 6 count: 7enq: 7  - 0 1 2 3 4 5 6 7 count: 8enq: 8  - 0 1 2 3 4 5 6 7 8 count: 9enq: 9  - 0 1 2 3 4 5 6 7 8 9 count: 10 deq: 0
 enq: 10  - 1 2 3 4 5 6 7 8 9 10 count: 10 deq: 1
