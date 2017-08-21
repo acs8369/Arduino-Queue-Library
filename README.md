@@ -13,7 +13,7 @@ deQueue() // return element and remove element from queue
 
 reset() // reset queue container
 
-getValue() // return pointer to elements copy from queue
+getValue() // return pointer to elements copy from queue container
 
 front() // return front element of queue
 
