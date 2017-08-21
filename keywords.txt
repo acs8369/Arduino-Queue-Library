@@ -1,0 +1,10 @@
+
+Queue	KEYWORD1
+enQueue	KEYWORD2
+deQueue	KEYWORD2
+reset	KEYWORD2
+getValue	KEYWORD2
+front	KEYWORD2
+count	KEYWORD2
+isEmpty	KEYWORD2
+isFull	KEYWORD2
